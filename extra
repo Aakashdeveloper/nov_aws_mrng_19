@@ -1,0 +1,32 @@
+group=> full access to S3 (read, write,delete)
+developer: [user1, user2, user3]
+
+user1 => have only read access 
+=>> write and delete access
+
+user2 ==> dont have any access
+=> read,write,delete
+
+user3 => no read access only write
+=> write ,delete
+
+
+
+{
+    "name":"john",
+    "class":"aws"
+}
+
+
+AKIAZPP7G5I5SQFYVOHJ
+Ni95t91kZNCZFpBjLnitcq1Zp4csdlgno4tD/ZA8
+
+
+> install python
+> pip install awscli
+> aws configure 
+> AKIAZPP7G5I5SQFYVOHJ
+> Ni95t91kZNCZFpBjLnitcq1Zp4csdlgno4tD/ZA8
+
+aws ec2 deescribe-regions
+aws s3 ls
